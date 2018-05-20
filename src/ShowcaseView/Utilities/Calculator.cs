@@ -6,7 +6,7 @@ using ShowcaseView.Models;
 
 namespace ShowcaseView.Utilities
 { 
-    class Calculator
+    public class Calculator
     {
         #region Class Variables
 

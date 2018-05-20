@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ShowcaseView.ShowcaseExtensions
 {
-    class ShowCaseQueue : DismissListener
+    public class ShowCaseQueue : DismissListener
     {
         #region CLASS LEVEL VARIABLE DECLARATIONS
 

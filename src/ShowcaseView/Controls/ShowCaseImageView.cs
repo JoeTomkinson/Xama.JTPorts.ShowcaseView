@@ -11,7 +11,7 @@ using ShowcaseView.Models;
 
 namespace ShowcaseView.Interfaces
 {
-    class ShowCaseImageView : AppCompatImageView
+    public class ShowCaseImageView : AppCompatImageView
     {
         #region CLASS LEVEL VARIABLES
 

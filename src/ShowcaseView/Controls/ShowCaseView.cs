@@ -16,7 +16,7 @@ using ShowcaseView.Utilities;
 
 namespace ShowcaseView.Interfaces
 {
-    class ShowCaseView : FrameLayout, ViewTreeObserver.IOnGlobalLayoutListener, OnViewInflateListener
+    public class ShowCaseView : FrameLayout, ViewTreeObserver.IOnGlobalLayoutListener, OnViewInflateListener
     {
         #region CLASS LEVEL VARIABLE DECLARATIONS
 
@@ -191,7 +191,7 @@ namespace ShowcaseView.Interfaces
             mSharedPreferences = mActivity.GetSharedPreferences(PREF_NAME, FileCreationMode.Private);
         }
 
-        /// <summary>
+       /// <summary>
         /// Resets all show once flags
         /// </summary>
         /// <param name="context"></param>
