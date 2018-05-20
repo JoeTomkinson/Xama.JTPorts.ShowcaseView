@@ -65,4 +65,10 @@
         android:padding="10dp"
         android:text="ANOTHER ACTIVITY"
         android:id="@+id/buttonActivity" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Auto Queue"
+        android:id="@+id/buttonFlow" />
 </LinearLayout>

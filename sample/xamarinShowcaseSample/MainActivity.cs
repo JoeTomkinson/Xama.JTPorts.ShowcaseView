@@ -9,20 +9,23 @@ using ShowcaseView;
 using ShowcaseView.Interfaces;
 using Android.Graphics;
 using Android.Views.Animations;
+using xamarinShowcaseSample.Utilities;
+using System.Collections.Generic;
 
 namespace xamarinShowcaseSample
 {
 	[Activity(Label = "@string/app_name", Theme = "@style/AppTheme.NoActionBar", MainLauncher = true)]
 	public class MainActivity : AppCompatActivity, OnViewInflateListener
     {
-        private Button ButtonNoFocus, ButtonCircle, ButtonRoundedRect, ButtonLargerCircle, ButtonLongerText, ButtonWithColour, ButtonCustomAnimation, ButtonCustomView, ButtonActivity;
-
-
+        private Button ButtonNoFocus, ButtonCircle, ButtonRoundedRect, ButtonLargerCircle, ButtonLongerText, ButtonWithColour, ButtonCustomAnimation, ButtonCustomView, ButtonActivity, ButtonAutoQueue;
+        
         protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
 			SetContentView(Resource.Layout.activity_main);
+
+            Title = "Showcase Demo";
 
 			Android.Support.V7.Widget.Toolbar toolbar = FindViewById<Android.Support.V7.Widget.Toolbar>(Resource.Id.toolbar);
             SetSupportActionBar(toolbar);
@@ -40,6 +43,7 @@ namespace xamarinShowcaseSample
             ButtonCustomAnimation = FindViewById<Button>(Resource.Id.buttonCustomAnimation);
             ButtonCustomView = FindViewById<Button>(Resource.Id.buttonCustomView);
             ButtonActivity = FindViewById<Button>(Resource.Id.buttonActivity);
+            ButtonAutoQueue = FindViewById<Button>(Resource.Id.buttonFlow);
 
             // Showcase set-up
             SetupShowcases();
@@ -131,11 +135,15 @@ namespace xamarinShowcaseSample
             };
 
             ButtonLongerText.Click += (s, e) => {
+
+                Color color = Color.DarkOrchid;
+                color.A = 80;
+
                 ShowCaseView showcase = new ShowCaseView.Builder()
                 .Context(this)
                 .FocusOn(ButtonLongerText)
                 .CloseOnTouch(true)
-                .BackgroundColor(Color.DarkOrchid)
+                .BackgroundColor(color)
                 .FocusBorderColor(Color.White)
                 .FocusBorderSize(15)
                 .Title("Longer Text")
@@ -213,6 +221,20 @@ namespace xamarinShowcaseSample
                 .Build();
 
                 showcase.Show();
+            };
+            
+            ShowcaseFlow showcaseFlow = new ShowcaseFlow(this);
+            List<View> list = new List<View>()
+            {
+                ButtonAutoQueue,
+                ButtonNoFocus,
+                ButtonCircle,
+                ButtonLongerText,
+                ButtonWithColour
+            };
+
+            ButtonAutoQueue.Click += (s, e) => {
+                showcaseFlow.Flow(list, new TimeSpan(0, 0, 0, 3, 0));
             };
         }
 

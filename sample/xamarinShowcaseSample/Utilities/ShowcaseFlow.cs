@@ -2,6 +2,7 @@
 using Android.Content;
 using Android.Graphics;
 using Android.Views;
+using Android.Widget;
 using ShowcaseView.Interfaces;
 using ShowcaseView.ShowcaseExtensions;
 using System;
@@ -24,12 +25,14 @@ namespace xamarinShowcaseSample.Utilities
             this.context = context;
         }
 
-        public void Flow(List<View> focuses)
+        public void Flow(List<View> focuses, TimeSpan autoDelaySpan)
         {
             focusViews = focuses;
 
             // initialise a showcase queue
             Queue = new ShowCaseQueue();
+
+            int count = 0;
 
             foreach (var item in focusViews)
             {
@@ -40,15 +43,18 @@ namespace xamarinShowcaseSample.Utilities
                 .BackgroundColor(Color.DarkRed)
                 .FocusBorderColor(Color.White)
                 .FocusBorderSize(15)
-                .Title("")
+                .Title(count.ToString())
+                .TitleGravity((int)(GravityFlags.Top|GravityFlags.Right))
                 .FocusCircleRadiusFactor(1.5)
                 .Build();
 
                 Queue.Add(showcase);
+
+                count++;
             }
 
             // set auto run delay of ten seconds if required
-            Queue.AutoRunDelay = new TimeSpan(0, 0, 0, 10, 0);
+            Queue.AutoRunDelay = autoDelaySpan;
 
             // set an action once the queue completes.
             Queue.QueueCompleted += ShowCaseQueue_QueueCompleted;
@@ -64,7 +70,7 @@ namespace xamarinShowcaseSample.Utilities
         /// <param name="e"></param>
         private void ShowCaseQueue_QueueCompleted(object sender, EventArgs e)
         {
-            //
+            Toast.MakeText(context, "Showcase flow completed", ToastLength.Long).Show();
         }
 
         /// <summary>
