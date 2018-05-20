@@ -1,7 +1,7 @@
 
 # Xamarin.ShowcaseView
 
-Xamarin.Android Native showcase view. An easy-to-use customizable show case view with circular reveal animation.
+_Xamarin.Android_ Native showcase view. An easy-to-use customizable show case view with circular reveal animation.
 
 This is a ported build, converted from Java to C# for use with the Xamarin MonoFramework.
 
