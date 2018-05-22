@@ -29,3 +29,19 @@ This is a ported build, converted from Java to C# for use with the Xamarin MonoF
 ![!gif](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/Sample.gif)
 
 <br>
+
+# Basic usage
+```
+          ShowCaseView showcase = new ShowCaseView.Builder()
+                .Context(this)
+                .CloseOnTouch(true)
+                .FocusOn(ControlToFocusOn)
+                .BackgroundColor(Color.DarkRed)
+                .FocusBorderColor(Color.White)
+                .FocusBorderSize(15)
+                .Title("Showcase text")
+                .FocusCircleRadiusFactor(1.5)
+                .Build();
+                
+           showcase.Show();
+```
