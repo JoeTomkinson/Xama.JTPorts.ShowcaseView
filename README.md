@@ -24,11 +24,10 @@ This is a ported build, converted from Java to C# for use with the Xamarin MonoF
 - Auto move-on for showcase queues.
 - Auto dismiss for showcases.
 
-<br>
-<br>
-<br>
-<br>
-<br>
+# Customary sample GIF
+
+![!gif](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/Sample.gif)
+
 <br>
 
 # Attribution Note
