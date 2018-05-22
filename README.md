@@ -1,7 +1,7 @@
 
 # Xamarin.ShowcaseView
 [![platform](https://img.shields.io/badge/platform-Xamarin.Android-brightgreen.svg)](https://www.xamarin.com/)
-[![API](https://img.shields.io/badge/API-21%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=21s)
+[![API](https://img.shields.io/badge/API-10%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=10s)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 _Xamarin.Android_ Native showcase view. An easy-to-use customizable show case view with circular reveal animation, ported from [FancyShowCaseView](https://github.com/faruktoptas/FancyShowCaseView) by [Faruk Toptaş](https://github.com/faruktoptas)
