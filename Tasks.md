@@ -11,3 +11,5 @@
 - [ ] Create NuGet package.
 
 - [ ] Ensure Travis-CI works against class library and NuGet package.
+
+- [ ] Fill out the Wiki.
