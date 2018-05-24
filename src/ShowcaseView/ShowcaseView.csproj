@@ -17,6 +17,17 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <PackageId>ShowcaseView</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Description>ShowcaseView started as a C# port from the Java library called 'FancyShowCaseView'.</Description>
+    <Authors>JoeTomkinson</Authors>
+    <Owners>JoeTomkinson</Owners>
+    <Copyright>Joe Tomkinson</Copyright>
+    <PackageProjectUrl>https://github.com/DigitalSa1nt/Xamarin.ShowcaseView</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/DigitalSa1nt/Xamarin.ShowcaseView/master/images/nugetIcon.png</PackageIconUrl>
+    <Summary />
+    <Title>Xamarin.Android.ShowcaseView</Title>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
