@@ -1,2 +1,4 @@
 language: csharp
 solution: src/ShowcaseView.sln
+mono:
+  - latest
