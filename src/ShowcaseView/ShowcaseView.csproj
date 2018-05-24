@@ -17,7 +17,7 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
-    <PackageId>ShowcaseView</PackageId>
+    <PackageId>xamarin.android.showcaseview</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Description>ShowcaseView started as a C# port from the Java library called %27FancyShowCaseView%27.</Description>
     <Authors>Joe Tomkinson</Authors>
