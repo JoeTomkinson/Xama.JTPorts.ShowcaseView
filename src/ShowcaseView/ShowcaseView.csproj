@@ -19,15 +19,17 @@
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <PackageId>ShowcaseView</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
-    <Description>ShowcaseView started as a C# port from the Java library called 'FancyShowCaseView'.</Description>
-    <Authors>JoeTomkinson</Authors>
-    <Owners>JoeTomkinson</Owners>
+    <Description>ShowcaseView started as a C# port from the Java library called %27FancyShowCaseView%27.</Description>
+    <Authors>Joe Tomkinson</Authors>
+    <Owners>Joe Tomkinson</Owners>
     <Copyright>Joe Tomkinson</Copyright>
     <PackageProjectUrl>https://github.com/DigitalSa1nt/Xamarin.ShowcaseView</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/DigitalSa1nt/Xamarin.ShowcaseView/master/images/nugetIcon.png</PackageIconUrl>
     <Summary />
     <Title>Xamarin.Android.ShowcaseView</Title>
+    <IsDevelopmentDependency>False</IsDevelopmentDependency>
+    <IsPackable>true</IsPackable>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -90,6 +92,9 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging">
+      <Version>0.2.2</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
       <Version>27.0.2</Version>
     </PackageReference>
