@@ -1,5 +1,7 @@
 # Outstanding Tasks
 
+- [ ] Find time to start these tasks!!
+
 - [ ] Finish converting listeners to events where applicable.
 
 - [ ] Create a OO constructor and auto-backed properties as an alternative to the Builder pattern.
