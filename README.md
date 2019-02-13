@@ -6,7 +6,7 @@
 [![NuGet](https://img.shields.io/nuget/v/xamarin.android.showcaseview.svg?label=NuGet)](https://www.nuget.org/packages/xamarin.android.showcaseview/)
 ![Build: Passing](https://img.shields.io/badge/Build-Passing-green.svg)
 
-[Xama.JTPorts.ShowcaseView]
+### Namespace: Xama.JTPorts.ShowcaseView
 
 _Xamarin.Android_ Native showcase view. An easy-to-use customizable show case view with circular reveal animation, ported from [FancyShowCaseView](https://github.com/faruktoptas/FancyShowCaseView) by [Faruk Toptaş](https://github.com/faruktoptas)
 
