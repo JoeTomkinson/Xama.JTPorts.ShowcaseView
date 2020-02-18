@@ -1,10 +1,13 @@
 
 # Xamarin ShowcaseView 
+
 [![platform](https://img.shields.io/badge/platform-Xamarin.Android-brightgreen.svg)](https://www.xamarin.com/)
 [![API](https://img.shields.io/badge/API-10%2B-orange.svg?style=flat)](https://android-arsenal.com/api?level=10s)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![NuGet](https://img.shields.io/nuget/v/xamarin.android.showcaseview.svg?label=NuGet)](https://www.nuget.org/packages/xamarin.android.showcaseview/)
 ![Build: Passing](https://img.shields.io/badge/Build-Passing-green.svg)
+
+![](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/nugetIcon.png) [Nuget Link](https://www.nuget.org/packages/xamarin.android.showcaseview/) 
 
 ### Namespace: Xama.JTPorts.ShowcaseView
 
