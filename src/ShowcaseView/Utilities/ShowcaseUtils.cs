@@ -3,7 +3,7 @@ using Android.Graphics;
 using Android.OS;
 using Android.Views;
 
-namespace ShowcaseView.Utilities
+namespace Xama.JTPorts.ShowcaseView.Utilities
 {
     /// <summary>
     /// Utility class for determining various android specific calculations and defaults

@@ -11,10 +11,10 @@ using Android.Views;
 using Android.Views.Animations;
 using Android.Widget;
 using System;
-using ShowcaseView.Models;
-using ShowcaseView.Utilities;
+using Xama.JTPorts.ShowcaseView.Models;
+using Xama.JTPorts.ShowcaseView.Utilities;
 
-namespace ShowcaseView.Interfaces
+namespace Xama.JTPorts.ShowcaseView.Interfaces
 {
     public class ShowCaseView : FrameLayout, ViewTreeObserver.IOnGlobalLayoutListener, OnViewInflateListener
     {

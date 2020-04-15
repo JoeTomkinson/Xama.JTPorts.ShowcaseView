@@ -1,6 +1,6 @@
 ﻿using Android.Views;
 
-namespace ShowcaseView.Interfaces
+namespace Xama.JTPorts.ShowcaseView.Interfaces
 {
     public interface OnViewInflateListener
     {

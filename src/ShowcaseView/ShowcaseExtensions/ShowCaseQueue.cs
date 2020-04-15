@@ -1,9 +1,9 @@
-﻿using ShowcaseView.Interfaces;
+﻿using Xama.JTPorts.ShowcaseView.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace ShowcaseView.ShowcaseExtensions
+namespace Xama.JTPorts.ShowcaseView.ShowcaseExtensions
 {
     public class ShowCaseQueue : DismissListener
     {

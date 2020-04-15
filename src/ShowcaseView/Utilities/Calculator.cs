@@ -2,9 +2,9 @@
 using Android.OS;
 using Android.Util;
 using Android.Views;
-using ShowcaseView.Models;
+using Xama.JTPorts.ShowcaseView.Models;
 
-namespace ShowcaseView.Utilities
+namespace Xama.JTPorts.ShowcaseView.Utilities
 { 
     public class Calculator
     {

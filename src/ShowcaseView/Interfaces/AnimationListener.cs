@@ -1,4 +1,4 @@
-﻿namespace ShowcaseView.Interfaces
+﻿namespace Xama.JTPorts.ShowcaseView.Interfaces
 {
     public interface AnimationListener
     {

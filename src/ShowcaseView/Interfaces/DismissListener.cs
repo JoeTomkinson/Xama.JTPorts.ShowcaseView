@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ShowcaseView.Interfaces
+namespace Xama.JTPorts.ShowcaseView.Interfaces
 {
     /// <summary>
     /// Listener for dismissing the show case view

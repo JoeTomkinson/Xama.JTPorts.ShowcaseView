@@ -2,14 +2,14 @@
 using Android.Graphics;
 using Android.OS;
 using Android.Runtime;
-using Android.Support.V7.Widget;
 using Android.Util;
 using Android.Views;
+using AndroidX.AppCompat.Widget;
+using Xama.JTPorts.ShowcaseView.Models;
+using Xama.JTPorts.ShowcaseView.Utilities;
 using System;
-using ShowcaseView.Utilities;
-using ShowcaseView.Models;
 
-namespace ShowcaseView.Interfaces
+namespace Xama.JTPorts.ShowcaseView.Interfaces
 {
     public class ShowCaseImageView : AppCompatImageView
     {
