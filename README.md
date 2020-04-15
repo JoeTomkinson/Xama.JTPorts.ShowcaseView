@@ -9,9 +9,9 @@
 
 ## Install
 
-[[Nuget Link]![](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/nugetIcon.png)] (https://www.nuget.org/packages/xamarin.android.showcaseview/)
+![](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/nugetIcon.png)
 
-Simply install the nuget package into your Xamarin.Android application and use as below.
+Simply install the [NuGet package](https://www.nuget.org/packages/xamarin.android.showcaseview/) into your Xamarin.Android application and use as below.
 
 This library now supports AndroidX libraries rather than v7 support libraries so it may ask you to install these dependencies in order to carry on using this control.
 
