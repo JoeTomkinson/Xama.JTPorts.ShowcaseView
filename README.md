@@ -7,7 +7,19 @@
 [![NuGet](https://img.shields.io/nuget/v/xamarin.android.showcaseview.svg?label=NuGet)](https://www.nuget.org/packages/xamarin.android.showcaseview/)
 ![Build: Passing](https://img.shields.io/badge/Build-Passing-green.svg)
 
-![](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/nugetIcon.png) [Nuget Link](https://www.nuget.org/packages/xamarin.android.showcaseview/) 
+## Installation
+
+![](https://github.com/DigitalSa1nt/Xamarin.ShowcaseView/blob/master/images/nugetIcon.png)
+
+Simply install the [NuGet package](https://www.nuget.org/packages/Xama.JTPorts.ShowcaseView/) into your Xamarin.Android application and use as below.
+
+This library now supports AndroidX libraries rather than v7 support libraries so it may ask you to install these dependencies in order to carry on using this control.
+
+Package Manager:
+> Install-Package Xama.JTPorts.ShowcaseView -Version 1.0.1
+
+.NET CLI:
+> dotnet add package Xama.JTPorts.ShowcaseView --version 1.0.1
 
 ### Namespace: Xama.JTPorts.ShowcaseView
 
