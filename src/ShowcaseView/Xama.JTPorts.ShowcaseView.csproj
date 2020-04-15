@@ -17,21 +17,21 @@
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
-    <PackageId>xamarin.android.showcaseview</PackageId>
+    <PackageId>Xama.JTPorts.ShowcaseView</PackageId>
     <PackageVersion>1.0.1</PackageVersion>
     <Description>ShowcaseView started as a C# port from the Java library called %27FancyShowCaseView%27.</Description>
     <Authors>Joe Tomkinson</Authors>
     <Owners>Joe Tomkinson</Owners>
     <Copyright>2020</Copyright>
     <PackageProjectUrl>https://github.com/DigitalSa1nt/Xamarin.ShowcaseView</PackageProjectUrl>
-    <PackageLicenseUrl>
-    </PackageLicenseUrl>
+    <PackageLicenseUrl>https://github.com/DigitalSa1nt/Xama.JTPorts.ShowcaseView/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://raw.githubusercontent.com/DigitalSa1nt/Xama.JTPorts.ShowcaseView/master/images/nugetIcon.png</PackageIconUrl>
     <Summary>ShowcaseView started as a C# port from the Java library called %27FancyShowCaseView%27.</Summary>
-    <Title>Xamarin.Android.ShowcaseView</Title>
+    <Title>Xama.JTPorts.ShowcaseView</Title>
     <IsDevelopmentDependency>False</IsDevelopmentDependency>
     <IsPackable>true</IsPackable>
     <NeutralLanguage>enGB</NeutralLanguage>
+    <PackageReleaseNotes>Version 1.0.1 - Migrated to AndroidX Support libraries, updated nuget icon and namespace.</PackageReleaseNotes>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
