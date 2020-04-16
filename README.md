@@ -65,6 +65,10 @@ This is a ported build, converted from Java to C# for use with the Xamarin MonoF
            showcase.Show();
 ```
 
+# Contribution
+
+More than happy for people to raise issues, or submit pull requests on adjustments, optimisations or improvements to the existing port. It's been migrated over to AndroidX support libraries so there's room to improve the ways the UI animations are created potentially.
+
 # Useful?
 
 <a href="https://www.buymeacoffee.com/JTT" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" tyle="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
