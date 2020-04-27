@@ -69,7 +69,13 @@ This is a ported build, converted from Java to C# for use with the Xamarin MonoF
 
 More than happy for people to raise issues, or submit pull requests on adjustments, optimisations or improvements to the existing port. It's been migrated over to AndroidX support libraries so there's room to improve the ways the UI animations are created potentially.
 
-# Useful?
+# Support 💎
+-----
+
+If you want to support the work that I do and you find this library useful? Support it by joining [**stargazers**](https://github.com/DigitalSa1nt/Xama.JTPorts.ShowcaseView/stargazers) for this repository ⭐️
+<br/>
+
+or alternatively if you want to you can also buy me a coffee.
 
 <a href="https://www.buymeacoffee.com/JTT" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-red.png" alt="Buy Me A Coffee" tyle="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
